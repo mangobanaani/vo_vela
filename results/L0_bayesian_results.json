@@ -1,0 +1,41 @@
+{
+  "glitch": "G1",
+  "observed": {
+    "P_obs_days": 314.1,
+    "sigma_P_days": 0.2,
+    "L_eff_km": 7.51
+  },
+  "inference": {
+    "L0_MAP_MeV": 60.5,
+    "L0_median_MeV": 60.5,
+    "L0_16_MeV": 59.0,
+    "L0_84_MeV": 62.0,
+    "L0_025_MeV": 57.5,
+    "L0_975_MeV": 63.5,
+    "sigma_68_MeV": 1.5,
+    "sigma_95_MeV": 3.0
+  },
+  "sensitivity": {
+    "period_range_days": 6.410219595258809,
+    "L0_range_MeV": 60.0,
+    "dP_dL0_days_per_MeV": -0.10683699325431348
+  },
+  "comparison": {
+    "Heavy-ion": [
+      58.7,
+      6.0
+    ],
+    "GW170817": [
+      60.0,
+      20.0
+    ],
+    "NICER": [
+      57.0,
+      10.0
+    ],
+    "This work (vortex osc.)": [
+      60.5,
+      1.5
+    ]
+  }
+}

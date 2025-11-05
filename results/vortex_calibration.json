@@ -1,0 +1,17 @@
+{
+  "target_period_days": 314.1,
+  "target_uncertainty_days": 0.2,
+  "best_geometric_factor": 1.0,
+  "best_length_scale_factor": 0.6,
+  "predicted_period_days": 142.0123773190943,
+  "error_days": 172.08762268090572,
+  "L0_sensitivity_days_per_MeV": 0.0,
+  "vela_parameters": {
+    "M_Msun": 1.4,
+    "R_km": 12.0,
+    "Omega_rad_per_s": 70.37167544041137,
+    "rho_glitch_over_rho0": 0.6,
+    "T_K": 100000000.0,
+    "L0_fiducial_MeV": 55.0
+  }
+}

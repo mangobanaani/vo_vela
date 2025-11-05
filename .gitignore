@@ -1,0 +1,88 @@
+# LaTeX Build Files (arXiv generates PDF, don't commit these)
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# PDF Output (arXiv will generate this)
+L0_measurement_complete.pdf
+
+# LaTeX Source (keep in repo but will upload separately to arXiv)
+# L0_measurement_complete.tex  # Uncomment to exclude from git if desired
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Results (keep these, but large output files might be excluded)
+# Uncomment if result files get too large:
+# results/*.json
+
+# Figures (keep PDFs, but exclude intermediate formats)
+*.eps
+*.ps
+figures/*.eps
+figures/*.ps
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Documentation Build
+_build/
+docs/_build/
+
+# Data files (if you have large raw data)
+# Uncomment if you have large data files not suitable for git:
+# data/vela/raw/*
+# *.fits
+# *.hdf5
+
+# Analysis output that can be regenerated
+# Uncomment if these get large:
+# figures/temp_*
+# results/temp_*
+
+# arXiv submission archive
+arxiv_submission.tar.gz
+arxiv_submission.zip

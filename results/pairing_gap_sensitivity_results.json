@@ -1,0 +1,62 @@
+{
+  "phenomenological_models": {
+    "AO": 60.5,
+    "CCDK": 59.3562778423481,
+    "chiral_EFT": 62.4502271539733,
+    "coupled_cluster": 59.914518029966814
+  },
+  "suppression_scan": {
+    "suppressions": [
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.85,
+      0.9,
+      1.0
+    ],
+    "L0_values": [
+      71.49548878248986,
+      68.81776616671934,
+      66.6299074851919,
+      64.7800993272648,
+      63.17772261577052,
+      62.4502271539733,
+      61.764326187893914,
+      60.5
+    ]
+  },
+  "scenarios": [
+    {
+      "model": "AO",
+      "suppression": 1.0,
+      "description": "Phenomenological (no suppression)",
+      "L0": 60.5
+    },
+    {
+      "model": "chiral_EFT",
+      "suppression": 0.85,
+      "description": "Chiral EFT + GMB",
+      "L0": 64.4004543079466
+    },
+    {
+      "model": "coupled_cluster",
+      "suppression": 0.7,
+      "description": "Coupled-cluster + strong GMB",
+      "L0": 64.1946173572316
+    },
+    {
+      "model": "CCDK",
+      "suppression": 1.0,
+      "description": "CCDK (no suppression)",
+      "L0": 59.3562778423481
+    }
+  ],
+  "summary": {
+    "L0_spread_models": 3.0939493116252024,
+    "L0_spread_scenarios": 5.044176465598504,
+    "baseline_AO": 60.5,
+    "uncertainty_estimate": 2.522088232799252
+  }
+}

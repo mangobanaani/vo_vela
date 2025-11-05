@@ -1,0 +1,195 @@
+# Vela Pulsar (PSR J0835-4510 / PSR B0833-45) Parameters
+# Compiled from multiple sources for vortex oscillation analysis
+#
+# Last updated: November 5, 2025
+# Source: ATNF Pulsar Catalogue v1.70 + Grover et al. (2025)
+
+# =============================================================================
+# BASIC PARAMETERS
+# =============================================================================
+
+# Pulsar designations
+J2000_name = PSR J0835-4510
+B1950_name = PSR B0833-45
+Common_name = Vela
+
+# Position (J2000)
+RA_hms = 08:35:20.61149
+DEC_dms = -45:10:34.8751
+RA_deg = 128.8358812
+DEC_deg = -45.1763542
+
+# Distance
+Distance_kpc = 0.287
+Distance_kpc_err = 0.019
+Distance_method = Parallax (VLBI)
+
+# =============================================================================
+# TIMING PARAMETERS
+# =============================================================================
+
+# Spin parameters (epoch MJD 58000)
+P_spin_ms = 89.32827
+P_spin_s = 0.08932827
+nu_Hz = 11.19065954
+nu_err_Hz = 1.2e-8
+
+# Spin-down
+nu_dot_Hz_per_s = -1.5643e-13
+nu_dot_err = 2.1e-17
+P_dot = 1.24823e-13
+
+# Derived parameters
+Characteristic_age_yr = 11340
+Surface_B_field_G = 3.38e12
+Spin_down_energy_erg_per_s = 6.88e36
+
+# =============================================================================
+# GLITCH HISTORY (2016-2024)
+# =============================================================================
+
+# Glitch G1 (2016-12-12)
+G1_MJD = 57736
+G1_Delta_Omega_over_Omega = 1.6e-6
+G1_Oscillation_period_days = 314.1
+G1_Oscillation_period_err_days = 0.2
+
+# Glitch G2 (2019-11-05)
+G2_MJD = 58802
+G2_Delta_Omega_over_Omega = 2.3e-6
+G2_Oscillation_detected = No
+
+# Glitch G3 (2021-09-17)
+G3_MJD = 59467
+G3_Delta_Omega_over_Omega = 1.1e-6
+G3a_Oscillation_period_days = 344.0
+G3a_Oscillation_period_err_days = 1.5
+G3b_Oscillation_period_days = 153.0
+G3b_Oscillation_period_err_days = 2.0
+
+# =============================================================================
+# NEUTRON STAR PARAMETERS (ESTIMATES)
+# =============================================================================
+
+# Mass (typical for pulsars, constrained by binary systems)
+Mass_Msun = 1.4
+Mass_Msun_range = [1.2, 1.6]
+Mass_source = Typical pulsar mass
+
+# Radius (constrained by NICER + theory)
+Radius_km = 12.0
+Radius_km_range = [11.0, 13.0]
+Radius_source = NICER constraints + EoS models
+
+# Central density (from stellar structure models)
+Central_density_rho0 = 2.8
+Central_density_g_cm3 = 6.7e14
+
+# Surface temperature (from X-ray observations)
+Temperature_K = 1.0e6
+Temperature_range_K = [7e5, 1.5e6]
+Temperature_source = Chandra X-ray
+
+# =============================================================================
+# INTERIOR STRUCTURE (RELEVANT FOR VORTEX OSCILLATIONS)
+# =============================================================================
+
+# Crust parameters
+Crust_density_g_cm3 = 4.5e13
+Crust_thickness_km = 1.5
+Crust_mass_fraction = 0.01
+
+# Inner crust (superfluid region)
+Inner_crust_density_range_rho0 = [0.3, 0.8]
+Inner_crust_bottom_density_g_cm3 = 1.9e14
+Superfluid_thickness_km = 1.0
+
+# Core
+Core_density_g_cm3 = 6.7e14
+Core_radius_km = 10.5
+
+# =============================================================================
+# ROTATION PARAMETERS
+# =============================================================================
+
+Angular_velocity_rad_per_s = 70.33
+Angular_velocity_Hz = 11.19
+Moment_of_inertia_g_cm2 = 1.35e45
+Rotational_energy_erg = 3.34e48
+
+# =============================================================================
+# SUPERFLUID PARAMETERS (ESTIMATES FOR ANALYSIS)
+# =============================================================================
+
+# Pairing gap at ρ ~ 0.6 ρ0 (inner crust)
+Pairing_gap_Delta_MeV = 0.1
+Pairing_model = Ainsworth-Ostgaard
+
+# Critical temperature
+Tc_K = 6.6e8
+T_over_Tc = 0.15
+
+# Superfluid fraction
+Superfluid_fraction = 0.98
+
+# =============================================================================
+# VORTEX PARAMETERS
+# =============================================================================
+
+# Vortex spacing (at Ω = 70.33 rad/s)
+Vortex_spacing_cm = 1.496e-3
+Vortex_density_per_cm2 = 4.47e5
+
+# Quantum of circulation
+Kappa_cm2_per_s = 1.997e-3
+
+# Coherence length (estimate)
+Coherence_length_cm = 5.6e-11
+
+# ln(b/ξ) factor
+ln_b_over_xi = 17.1
+
+# =============================================================================
+# REFERENCES
+# =============================================================================
+
+# [1] Grover et al. (2025), arXiv:2506.02100
+#     "Post-glitch oscillations in the Vela pulsar"
+#     Source: Oscillation periods, glitch parameters
+#
+# [2] Manchester et al. (2005), AJ 129, 1993
+#     "ATNF Pulsar Catalogue"
+#     Source: Basic timing parameters, position
+#
+# [3] Riley et al. (2021), ApJL 918, L27
+#     "NICER mass-radius constraints"
+#     Source: Radius estimates
+#
+# [4] Gügercinoğlu & Alpar (2023), MNRAS 518, 5734
+#     "Vortex oscillation theory"
+#     Source: Theoretical framework
+#
+# [5] Dodson et al. (2003), MNRAS 343, 116
+#     "Vela distance measurement"
+#     Source: VLBI parallax distance
+
+# =============================================================================
+# NOTES
+# =============================================================================
+
+# Uncertainties:
+# - Mass and radius have ~10-15% uncertainty
+# - Temperature has factor ~2 uncertainty
+# - Pairing gap model has ~20-30% uncertainty
+# - Vortex parameters derived from theory
+
+# Assumptions:
+# - Standard crust composition (Fe nuclei + neutrons + electrons)
+# - 3P2 neutron pairing in inner crust
+# - Pure neutron matter (ignoring muons, hyperons)
+# - Clamped-free vortex boundary conditions
+
+# Quality flags:
+# G1: Best quality (σ_P = 0.2 days), used for main L0 constraint
+# G3a, G3b: Lower significance, used for consistency checks
+# G2: No clear oscillation detected

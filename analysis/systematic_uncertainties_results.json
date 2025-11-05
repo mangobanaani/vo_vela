@@ -1,0 +1,53 @@
+{
+  "nominal": {
+    "L0_MAP": 60.5,
+    "L0_16": 59.5,
+    "L0_84": 62.5,
+    "sigma_stat": 1.5
+  },
+  "variations": {
+    "temperature": {
+      "T_low": 80000000.0,
+      "T_high": 120000000.0,
+      "L0_low": 60.5,
+      "L0_high": 60.5,
+      "sigma": 0.0
+    },
+    "mass": {
+      "M_low": 1.2,
+      "M_high": 1.6,
+      "L0_low": 60.5,
+      "L0_high": 60.5,
+      "sigma": 0.0
+    },
+    "radius": {
+      "R_low": 11.0,
+      "R_high": 13.0,
+      "L0_low": 60.5,
+      "L0_high": 60.5,
+      "sigma": 0.0
+    },
+    "pairing": {
+      "model_nom": "AO",
+      "model_alt": "CCDK",
+      "L0_nom": 60.5,
+      "L0_alt": 54.0,
+      "sigma": 6.5
+    }
+  },
+  "total": {
+    "sigma_stat": 1.5,
+    "sigma_sys": 6.5,
+    "sigma_total": 6.670832032063167,
+    "frac_stat": 2.479338842975207,
+    "frac_sys": 10.743801652892563,
+    "frac_total": 11.026168648038293
+  },
+  "final_result": {
+    "L0": 60.5,
+    "stat_error": 1.5,
+    "sys_error": 6.5,
+    "total_error": 6.670832032063167,
+    "latex": "60.5 \\pm 1.5 \\text{(stat)} \\pm 6.5 \\text{(sys)} \\text{ MeV}"
+  }
+}

@@ -1,0 +1,19 @@
+# Vela Pulsar Post-Glitch Oscillation Periods
+# Source: Grover et al. (2025), arXiv:2506.02100
+# Analysis: Fourier analysis of post-glitch timing residuals
+#
+# Columns:
+#   Glitch: Glitch identifier
+#   Date_MJD: Modified Julian Date of glitch
+#   Date_Cal: Calendar date
+#   Delta_Omega_over_Omega: Fractional spin-up
+#   Period_days: Oscillation period (days)
+#   Period_err_days: Uncertainty in period (days)
+#   Amplitude_Hz: Oscillation amplitude in frequency
+#   Significance_sigma: Detection significance
+#   Duration_days: Duration of oscillation visibility
+#
+Glitch,Date_MJD,Date_Cal,Delta_Omega_over_Omega,Period_days,Period_err_days,Amplitude_Hz,Significance_sigma,Duration_days
+G1,57736,2016-12-12,1.6e-6,314.1,0.2,2.3e-9,5.8,120
+G3a,59467,2021-09-17,1.1e-6,344.0,1.5,1.1e-9,3.2,80
+G3b,59467,2021-09-17,1.1e-6,153.0,2.0,8.5e-10,2.9,60

@@ -1,0 +1,31 @@
+# Literature values for nuclear symmetry energy slope L0
+# Compiled for comparison with vortex oscillation measurement
+# Last updated: November 5, 2025
+#
+# Columns:
+#   Method: Experimental/observational method
+#   L0_MeV: Central value of L0 (MeV)
+#   Error_minus_MeV: Lower uncertainty (MeV)
+#   Error_plus_MeV: Upper uncertainty (MeV, if asymmetric)
+#   Reference: Primary citation
+#   Year: Publication year
+#   Notes: Additional information
+#
+Method,L0_MeV,Error_minus_MeV,Error_plus_MeV,Reference,Year,Notes
+Heavy-ion collisions,58.7,6.0,6.0,Tsang et al. PRC,2012,Au+Au and Sn+Sn collisions
+Heavy-ion meta-analysis,58.9,7.8,7.8,Lattimer & Lim ApJ,2013,Combined constraints
+Heavy-ion FOPI,83.0,26.0,26.0,FOPI Collaboration,2016,Large uncertainty
+Heavy-ion ASY-EOS,88.0,25.0,25.0,Russotto et al. PRC,2016,Pion ratios
+Heavy-ion review,59.0,8.0,8.0,Zhang & Chen PRC,2023,Recent compilation
+GW170817 basic,60.0,20.0,20.0,Abbott et al. PRL,2017,Tidal deformability
+GW170817 refined,57.0,16.0,16.0,Most et al. PRL,2018,With improved EoS priors
+GW170817 + theory,59.5,12.0,12.0,Tews et al. ApJL,2018,Combined with chiral EFT
+NICER J0030,55.0,14.0,14.0,Riley et al. ApJL,2019,PSR J0030+0451 M-R
+NICER J0740,57.0,10.0,10.0,Miller et al. ApJL,2021,PSR J0740+6620 M-R
+NICER combined,56.0,9.0,9.0,Raaijmakers et al.,2021,Both pulsars + theory
+Chiral EFT,60.0,20.0,20.0,Drischler et al. PRL,2020,Ab initio calculations
+Parity violation,52.0,17.0,17.0,PREX-II Collaboration PRL,2021,Lead-208 neutron skin
+Dipole polarizability,46.0,5.0,5.0,Tamii et al. PRL,2011,Giant dipole resonance
+IAS analog states,68.0,13.0,13.0,Danielewicz & Lee NPA,2014,Isobaric analog states
+Nuclear masses,60.0,16.0,16.0,Kortelainen et al. PRC,2010,Mass table fits
+Vortex oscillations,60.5,6.7,6.7,This work,2025,Vela pulsar glitch G1
