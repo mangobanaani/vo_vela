@@ -2,6 +2,8 @@
 
 ## Status: Investigation Phase
 
+⚠️ DO NOT USE until L_eff can be independently constrained ⚠️ 
+
 This repository contains analysis history of a study of pulsar vortex oscillations for constraining
 nuclear symmetry energy (L₀). The methodology is currently under review due to
 potential circular dependencies in the calibration procedure.
